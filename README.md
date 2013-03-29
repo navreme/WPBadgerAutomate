@@ -29,3 +29,9 @@ And also:
 * Submit
 
 Thats it! The whole process of awarding of badge follows the process model of WPBadger, therefore emails are being sent and has to be approved...
+
+##Initiated and sponzored by##
+
+Jakub Štogr (Navreme Boheme) - www.navreme.cz - stogr@navreme.cz
+ for the purpose of DisCo 2013 international conference - www.disconference.eu
+ and www.BadgeBridge.net
