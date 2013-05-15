@@ -1,0 +1,324 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPBadgerAutomate\n"
+"POT-Creation-Date: 2013-05-15 10:25+0100\n"
+"PO-Revision-Date: 2013-05-15 10:28+0100\n"
+"Last-Translator: jiri@pavlicek.cz <jiri@pavlicek.cz>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_x;esc_html__;_e\n"
+"X-Poedit-Basepath: W:\\wpbadgerautomate\\web-dev\\wp-content\\plugins"
+"\\wpbadgerautomate\\\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: W:\\wpbadgerautomate\\web-dev\\wp-content\\plugins"
+"\\wpbadgerautomate\n"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/wpbadgerautomate.php:51
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/wpbadgerautomate.php:52
+msgid "WPBadgerAutomate can't be activated without WPBadger!"
+msgstr "WPBadgerAutomate nemůže být aktivován bez WPBadger!"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/wpbadgerautomate.php:56
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/wpbadgerautomate.php:57
+msgid "WPBadgerAutomate can't be activated without permalinks enabled!"
+msgstr "WPBadgerAutomate nelze aktivovat bez povolených trvalých odkazů!"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/wpbadgerautomate.php:166
+msgid ""
+"You've signed up, thank you! Link to get badge was sent to your e-mail "
+"address."
+msgstr ""
+"Nyní jste přihlášen, děkujeme! Na váš e-mail byl zaslán odkaz pro získání "
+"odznaku."
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/wpbadgerautomate.php:175
+msgid "You've signed up, thank you! Continue below to get badge."
+msgstr "Nyní jste přihlášen, děkujeme! Pokračujte pro získání odznaku."
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/wpbadgerautomate.php:177
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards_widget.php:271
+msgid "Please choose to"
+msgstr "Prosím, pokračujte"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/wpbadgerautomate.php:178
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards_widget.php:271
+msgid "accept badge"
+msgstr "převzít odznak"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards_url.php:56
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards_url.php:121
+msgid "You found the hidden URL, congratulations!"
+msgstr "Našli jste skryté URL, gratulujeme!"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards_url.php:110
+msgid "Link to get badge was sent to your e-mail."
+msgstr "Na váš e-mail byl zaslán odkaz pro získání odznaku."
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards_url.php:115
+msgid "You have already earned this badge! You can get it only 1 time."
+msgstr "Odznak na tomto URL jste již získal! Můžete ho získat jen jednou."
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards_url.php:127
+msgid "Error: E-mail can't be emty!"
+msgstr "Chyba: E-mail nesmí být prázdný!"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards_url.php:134
+msgid "Error: Invalid E-mail address!"
+msgstr "Chyba: Neplatná e-mailová adresa!"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards_url.php:145
+msgid "e-mail:"
+msgstr "e-mail:"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards_url.php:146
+msgid "Send link to get badge"
+msgstr "Odeslat odkaz pro získání odznaku"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:56
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:68
+msgid "Autoawards"
+msgstr "Samopřidělení"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:57
+msgid "Autoaward"
+msgstr "Samopřidělení"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:58
+msgid "Add New"
+msgstr "Přidat nový"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:59
+msgid "Add New Autoaward"
+msgstr "Přidat nové Samopřidělení"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:60
+msgid "Edit Autoaward"
+msgstr "Upravit Samopřidělení"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:61
+msgid "New Autoaward"
+msgstr "Nové Samopřidělení"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:62
+msgid "All Autoawards"
+msgstr "Všechna Samopřidělení"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:63
+msgid "View Autoaward"
+msgstr "Zobrazit Samopřidělení"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:64
+msgid "Search Autoawards"
+msgstr "Prohledat Samopřidělení"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:65
+msgid "No autoawards found"
+msgstr "Nebyla nalezena žádná Samopřidělení"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:66
+msgid "No autoaward found in Trash"
+msgstr "V koši nebyla nalezena žádná Samopřidělení"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:137
+msgid "Choose Badge"
+msgstr "Vyberte odznak"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:146
+msgid "Choose Award Type"
+msgstr "Vyberte typ přidělení"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:155
+msgid "Valid"
+msgstr "Platný"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:164
+msgid "Visibility"
+msgstr "Viditelnost"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:173
+msgid "URL"
+msgstr "URL"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:182
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:272
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:615
+msgid "Bonus badge"
+msgstr "Bonusový odznak"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:191
+msgid "Autoaward Status"
+msgstr "Stav Samopřidělení"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:200
+msgid "Direct badge issue"
+msgstr "Přímé přidělení odznaku"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:270
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:613
+msgid "After registration"
+msgstr "Po registraci"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:271
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:614
+msgid "On URL"
+msgstr "Na URL"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:274
+msgid ""
+"Choose when the badge will be automatically awarded: after registration, as "
+"soon as anyone visits the URL or based on combination of badges in the WP."
+msgstr ""
+"Vyberte kdy bude odznak automaticky přidělen: po registraci, po navštívení "
+"URL nebo po získání kombinace odznaků ve WP."
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:279
+msgid "from"
+msgstr "od"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:280
+msgid "to"
+msgstr "do"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:287
+msgid "Visible on autoawards list"
+msgstr "Zobrazit v seznamu samopřidělování"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:289
+msgid "Thumbnail visible"
+msgstr "Zobrazit náhled"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:291
+msgid "Name visible"
+msgstr "Zobrazit název"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:293
+msgid "Description visible"
+msgstr "Zobrazit popis"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:295
+msgid ""
+"Selected information about the criteria and the badge will be public. "
+"Everything else will be hidden."
+msgstr ""
+"Vybrané informace o kritériu přidělení a odznaku budou zveřejněny. Vše "
+"ostatní bude skryto."
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:305
+msgid ""
+"This is the secret URL. If anybody visits this URL, selected badge will be "
+"automatically awarded to him/her."
+msgstr ""
+"Toto je tajné URL. Pokud někdo toto URL navštíví, bude mu automaticky "
+"přidělen vybraný odznak."
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:355
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:381
+msgid "remove"
+msgstr "odstranit"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:399
+msgid "Add badge"
+msgstr "Přidat odznak"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:400
+msgid ""
+"Select badge(s) that needs to be already awarded in this WP to the user to "
+"be able to receive bonus badge automatically."
+msgstr ""
+"Vyberte odznak(y), které již musí uživatel v tomto WP získat, aby "
+"automaticky získal i odznak bonusový."
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:418
+msgid ""
+"Autoawarding could be set to enabled (in use) or disabled (not functional)."
+msgstr ""
+"Samopřidělování může být buď povoleno (používá se) nebo zakázáno (není "
+"funkční)."
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:434
+msgid ""
+"If selected, no emails are going to be sent and users have to accept or "
+"reject badges immediately."
+msgstr ""
+"Pokud je zvoleno přímé přidělení, nebudou odeslány emaily a uživatel bude "
+"nucen vybraný odznak přijmout nebo zamítnout okamžitě."
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:567
+msgid "Autoaward: "
+msgstr "Samopřidělení:"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:593
+msgid "Status"
+msgstr "Stav"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards.php:594
+msgid "Type"
+msgstr "Typ"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards_list.php:45
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards_widget.php:69
+msgid "Automatically assigned badges"
+msgstr "Automaticky přidělené odznaky"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards_list.php:50
+msgid "badge"
+msgstr "odznak"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards_list.php:51
+msgid "title"
+msgstr "nadpis"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards_list.php:52
+msgid "description"
+msgstr "popis"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards_list.php:84
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards_list.php:85
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards_list.php:86
+msgid "hidden"
+msgstr "skryto"
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards_widget.php:42
+msgid ""
+"Widget for direct badges collection. It also contains a link to autoawards "
+"list."
+msgstr ""
+"Widget pro přímé získání odznaků. Obsahuje také odkaz na seznam "
+"samopřidělení."
+
+#: W:\wpbadgerautomate\web-dev\wp-content\plugins\wpbadgerautomate/includes/autoawards_widget.php:236
+msgid "Waiting awards: "
+msgstr "Čekající odměny:"
+
+#~ msgid "This is a help for bonus autoaward."
+#~ msgstr ""
+#~ "Vyberte odznak(y), které již musí uživatel v tomto WP získat, aby "
+#~ "automaticky získal i odznak bonusový."
+
+#~ msgid "This is a help for autoaward status."
+#~ msgstr ""
+#~ "Samopřidělování může být buď povoleno (používá se) nebo zakázáno (není "
+#~ "funkční)."
+
+#~ msgid "This is a help for autoaward direct badge issue."
+#~ msgstr ""
+#~ "Pokud je zvoleno přímé přidělení, nebudou odeslány emaily a uživatel bude "
+#~ "nucen vybraný odznak přijmout nebo zamítnout okamžitě."
+
+#~ msgid "This is a help for autoaward URL."
+#~ msgstr ""
+#~ "Toto je tajné URL. Pokud někdo toto URL navštíví, bude mu automaticky "
+#~ "přidělen vybraný odznak."
+
+#~ msgid "This is a help for autoaward type."
+#~ msgstr ""
+#~ "Zvolte, kdy bude odznak automaticky přidělen: po registraci, jakmile "
+#~ "navštíví URL nebo na základě kombinace existujících odznaků ve WP."
+
+#~ msgid "This is a help for autoaward visibility."
+#~ msgstr ""
+#~ "Vybrané informace o kritériu přidělení a odznaku budou zveřejněny. Vše "
+#~ "ostatní bude skryto."

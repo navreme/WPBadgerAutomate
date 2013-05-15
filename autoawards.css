@@ -1,0 +1,9 @@
+table.autoawards { border-collapse: collapse; }
+table.autoawards th { text-align: center; font-weight: bold; }
+table.autoawards th,
+table.autoawards td { padding: 10px; border-bottom: 1px solid #EDEDED; vertical-align: middle; }
+table.autoawards tr:first-child td { border-top: 1px solid #EDEDED; }
+table.autoawards td .thumbnail { width: 100px; height: 100px; text-align: center; }
+
+.login-action-login div.message ul { margin-bottom: 10px; padding: 0 0 0 30px; list-style-type: disc; }
+.login-action-login div.message li { padding-bottom: 4px; }
