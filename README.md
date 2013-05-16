@@ -2,23 +2,24 @@
 
 ##Overview##
 
-[TODO - be more specific]
-
 WPBadgerAutomate is a WordPress plugin that extends WPBadger plugin https://github.com/davelester/WPBadger . It creates "autoawards" - processes that automaticaly issue badges based on preconfigured criteria.
-Current version is going to provide following features:
+
+Current version provides following features:
 * issue selected badge after registration
-* issue selected badge based on accessing configurable unique URL
-* issue selected badge based on earning some other badge/s (hierarchization)
+* issue selected badge based on accessing unique URL
+* issue selected badge based on previous earning of some other badge/s (enabling hierarchization of badges)
+
 And also:
-* page with the overview of autoawards (with respect to its "visibility"; some could be secret;)
+* page with the overview of badges that could be issued automatically using autoawards (with respect to its "visibility"; some could be secret); URL: mydomain.me/autobadges/
+* widget showing badges that are waiting to be issued
 
 ##Installation##
 
 ###Requirements###
 
-- WPBadger plugin required
-- permalinks must be enabled
-- openbadges API doesnt work in IE browser!!!
+* WPBadger plugin required
+* permalinks must be enabled
+* openbadges API doesnt work in IE browser!!!
 
 ###Install###
 
@@ -27,23 +28,22 @@ And also:
 
 ##Instructions for Using WPBadgerAutomate##
 
-[TODO - be more specific; synch texts]
-
-* Add Badges using WPBadger plugin as usual.
-* Click the "Autoawards" link in menu and Add a new autoaward. Select type (after registration, based on URL, hierarchy)
+* Add Badges using WPBadger plugin as usual
+* Click the "Autoawards" link in menu and Add a new autoaward. Select type (after registration, based on URL, bonus=hierarchy)
 * select Badge to be awarded automatically
 * based on a type, set other required parameters (e.g. URL, select prerequisit badge/s)
-* set Visibility (what should be publically available to users - from requirements super-secret to known)
-* set limits for availability based on date (from-to) 
+* set Visibility (what should be publically available to users - from super-secret to publically available)
+* set limits for availability based on date (from-to)
+* set if badge should be awarded directly (without sending email) or indirectly (email will be sent as WPBadger does)
+* set autoaward as enabled (default)
 * Submit
 
-Thats it! The whole process of awarding of badge follows the process model of WPBadger, therefore emails are being sent and has to be approved...
+Thats it! The whole process of awarding of badge follows the process model of WPBadger.
 
 ##Initiated and sponzored by##
 
 Jakub Štogr (Navreme Boheme) - www.navreme.cz - stogr@navreme.cz
- for the purpose of DisCo 2013 international conference - www.disconference.eu
- and www.BadgeBridge.net
+ for the purpose of DisCo 2013 international conference - www.disconference.eu and www.BadgeBridge.net
 
 ##Tech doc##
 
@@ -53,28 +53,16 @@ post_tape: autoaward
 
 custom meta post fields:
 
-wpbadger-autoaward-choose-badge - badge ID
-
-wpbadger-autoaward-choose-award-type - autoaward type (1 = po registraci, 2 = na URL, 3 = po získání kombinace badgů)
-
-wpbadger-autoaward-date-start - datum odkdy je možné udělení (prázdné = bez limitu), testuje se v okamžiku odeslání e-mailu nebo zobrazení JavaScript kódu pro sběr
-
-wpbadger-autoaward-date-end - datum dokdy je možné udělení (prázdné = bez limitu), testuje se v okamžiku odeslání e-mailu nebo zobrazení JavaScript kódu pro sběr
-
-wpbadger-autoaward-visibility-page - viditelnost na stránce /autobadges/ (1 = zobrazí se)
-
-wpbadger-autoaward-visibility-image - viditelnost obrázku na stránce /autobadges/ (1 = zobrazí se)
-
-wpbadger-autoaward-visibility-title - viditelnost názvu na stránce /autobadges/ (1 = zobrazí se)
-
-wpbadger-autoaward-visibility-description - viditelnost popisky na stránce /autobadges/ (1 = zobrazí se)
-
-wpbadger-autoaward-badges - čárkami oddělený seznam badge ID, má význam pouze pro typ 3 (po získání kombinace badgů)
-
-wpbadger-autoaward-status - stav (Enabled/Disabled)
-
-wpbadger-autoaward-direct - přímé přidělení/odeslán emailu s odkazem pro získání (Yes = přímé přidělení, No = přes email)
-
-wpbadger-autoaward-usedby - čárkou oddělený seznam e-mailů uživatelů, kterým by tento autoaward udělen, slouží jako ochrana proti opakovanému přidělování autoawardu za URL a za kombinaci badgů
-
-wpbadger-autoaward-salt
+* wpbadger-autoaward-choose-badge - badge ID
+* wpbadger-autoaward-choose-award-type - autoaward type (1 = after registration, 2 = on URL, 3 = bonus after receiving some other badge/s)
+* wpbadger-autoaward-date-start - awarding availibility "from" (empty= no limit), being tested during sending the email or when JavaScript code for assertion is trigger
+* wpbadger-autoaward-date-end - awarding availibility "to" (empty= no limit), being tested during sending the email or when JavaScript code for assertion is trigger
+* wpbadger-autoaward-visibility-page - visibility on page: /autobadges/ (1 = visible)
+* wpbadger-autoaward-visibility-image - visibility of picture on page: /autobadges/ (1 = visible)
+* wpbadger-autoaward-visibility-title - visibility of title on page: /autobadges/ (1 = visible)
+* wpbadger-autoaward-visibility-description - visibility of description on page: /autobadges/ (1 = visible)
+* wpbadger-autoaward-badges - comma-separated list of badge IDs; necessary only for the type 3 (bonus badge based on combination of badges)
+* wpbadger-autoaward-status - status of autoaward (Enabled/Disabled)
+* wpbadger-autoaward-direct - direct awarding vs. emailing instructions and link (Yes = direct, no email; No = sending email)
+* wpbadger-autoaward-usedby - comma-separated list of emails that already received badge via autoaward; prevention agains repeated awarding the same badge based on types 2 (based on URL) and 3 (combination)
+* wpbadger-autoaward-salt
