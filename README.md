@@ -17,7 +17,9 @@ And also:
 
 ###Requirements###
 
-* WPBadger plugin required
+* WPBadger plugin version 0.6.* required
+ - NOTE: current version of WPBadger (0.7.0) is not supported!!
+ - feel free to update/rewrite the code
 * permalinks must be enabled
 * openbadges API doesnt work in IE browser!!!
 
@@ -42,7 +44,7 @@ Thats it! The whole process of awarding of badge follows the process model of WP
 
 ##Initiated and sponzored by##
 
-Jakub Štogr (Navreme Boheme) - www.navreme.cz - stogr@navreme.cz
+Jakub Štogr (Navreme Boheme) - www.navreme.cz
  for the purpose of DisCo 2013 international conference - www.disconference.eu and www.BadgeBridge.net
 
 ##Tech doc##
